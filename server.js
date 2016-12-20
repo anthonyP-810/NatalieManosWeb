@@ -5,7 +5,7 @@ var bp = require('body-parser');
 var app = express();
 var path = require('path');
 var root = __dirname;
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 80;
 
 
 app.use(express.static(path.join(root, './client')));
